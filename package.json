@@ -81,5 +81,5 @@
     "test": "gulp",
     "test-debug": "node --debug-brk node_modules/.bin/gulp"
   },
-  "version": "1.0.3"
+  "version": "1.0.5"
 }
