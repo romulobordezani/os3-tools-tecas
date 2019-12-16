@@ -385,6 +385,7 @@ exports = module.exports = function (options) {
 
         if (!_.isUndefined(handler)) {
           try {
+			req.swagger.params.body = { value: 'bug killer' };
             return handler(req, res, next);
           } catch (err) {
             rErr = err;
